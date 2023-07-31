@@ -1,6 +1,6 @@
 # Age Calculator
 
-**Description:** A website that tells you your age.
+**Description:** A website that tells you your age.<br>
 **Languages & Tools:** HTML, CSS, PHP
 
 # Preview
