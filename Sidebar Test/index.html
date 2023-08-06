@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <i class='bx bx-menu' id="nav-button"></i>
+            <span>Test Website</span>
+        </div>
+    </nav>
+
+    <div class="sidebar">
+        <div class="user-profile">
+            <img src="imgs/profile-picture.png" alt="profile-picture">
+            <div>
+                <span><b>NotYoel</b></span>
+                <span>Administrator</span>
+            </div>
+        </div>
+
+        <div class="sidebar-content">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-home-alt icon"></i>
+                        <span class="link">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-package' ></i>
+                        <span class="link">Products</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-grid'></i>
+                        <span class="link">Categories</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-basket'></i>
+                        <span class="link">Orders</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-user'></i>
+                        <span class="link">Customers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-truck'></i>
+                        <span class="link">Shipping</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="bottom-content">
+                <li>
+                    <a href="#">
+                        <i class='bx bx-cog'></i>
+                        <span class="link">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-log-out'></i>
+                        <span class="link">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1>Hi</h1>
+    </div>
+
+    <script>
+        let nav_button = document.querySelector("#nav-button");
+        let sidebar = document.querySelector(".sidebar");
+
+        nav_button.onclick = function() {
+            sidebar.classList.toggle("active");
+        };
+    </script>
+</body>
+</html>
