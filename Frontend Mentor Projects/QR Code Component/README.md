@@ -1,7 +1,7 @@
 # QR Code Component
 
 **Description:** A frontend mentor challenge<br>
-**Languages & Tools:** HTML, CSS
+**Languages & Tools:** HTML, CSS<br>
 **Challenge Link:** https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H
 
 # Preview
