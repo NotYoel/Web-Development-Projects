@@ -1,7 +1,7 @@
 # GeeksForGeeks Survey Form
 
 **Description:** A survey form project from GeeksForGeeks<br>
-**Languages & Tools:** HTML, CSS
+**Languages & Tools:** HTML, CSS<br>
 **Project Link:** https://www.geeksforgeeks.org/build-a-survey-form-using-html-and-css/
 
 # Preview
