@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 25em;
+}
+
+main {
+    border-radius: 10px;
+    width: 100%;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+}
+
+.left {
+    padding: 4em 4em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.left h1 {
+    font-family: 'Inter', non-serif;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.left h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+.left .description {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', non-serif;
+    max-width: 24em;
+    line-height: 2em;
+    margin-bottom: 5em;
+}
+
+.stats {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+.stats p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.8rem;
+    font-weight: 300;
+    font-family: 'Lexend Deca', non-serif;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+}
+
+.stats p::first-line {
+    font-family: 'Inter', non-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.right {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    width: 100%;
+    background-image: url("images/image-header-desktop.jpg");
+    background-size: cover;
+    background-color: hsl(277, 64%, 61%);
+    background-blend-mode: multiply;
+}
+
+@media only screen and (max-width: 1440px) {
+    body {
+        padding: 0 12em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        padding: 0 1em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: hsl(233, 47%, 7%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        padding: 10em 2em;
+        font-size: 20px;
+    }
+
+    .right {
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 10px;
+        flex-direction: column;
+        height: 300px;
+        background-image: url("images/image-header-mobile.jpg");
+    }
+
+    main {
+        flex-direction: column-reverse;
+    }
+
+    .left {
+        max-width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .left h1 {
+        text-align: center;
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    .left .description {
+        font-size: 1em;
+        text-align: center;
+        margin-bottom: 3em;
+    }
+
+    .stats {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .stats p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    body {
+        font-size: 16px;
+    }
+    
+}
+
+@media only screen and (max-width: 320px) {
+
+    body {
+        font-size: 12px;
+    }
+    
+}
