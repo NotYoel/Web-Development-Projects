@@ -7,6 +7,3 @@
 
 # Preview
 ![](https://github.com/NotYoel/Web-Development-Projects/blob/main/Simple%20Login%20Page/preview/preview.png)
-
-# Todo
-- [❌] Add sliding animation to reveal register form.
