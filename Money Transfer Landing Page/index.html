@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Transfer Landing Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h2 class="nav__logo">Eastern Union</h2>
+
+        <ul class="nav__links">
+            <li><a href="#">Send Money</a></li>
+            <li><a href="#">Pick-up Cash</a></li>
+            <li><a href="#">Track transfer</a></li>
+            <li><a href="#">Pay bills</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+
+        <div class="nav__btns">
+            <div class="nav__btns__chglang">
+                <img id="chglang__flag" src="assets/us_flag.png" alt="US Flag">
+                EN
+                <i class='bx bxs-chevron-down'></i>
+            </div>
+            <button id="nav__btns__login">Login</button>
+            <button id="nav__btns__register">Register</button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="main__left">
+            <h1>The fast and trusted way to send money online</h1>
+            <p class="main__left__description">Whether you need to send money to friends down the street or family across the globe, Eastern Union gets your funds there quickly and reliably.</p>
+
+            <div class="main__left__cards">
+                <div class="main__left__card">
+                    <img src="assets/lightning_icon.svg" alt="">
+                    <h2>Fast</h2>
+                    <p>Send money online to loved ones across the world.</p>
+                </div>
+                <div class="main__left__card">
+                    <img src="assets/shield_icon.svg" alt="">
+                    <h2>Safe</h2>
+                    <p>Feel secure knowing we have sent over a billion.</p>
+                </div>
+                <div class="main__left__card">
+                    <img src="assets/shield_icon.svg" alt="">
+                    <h2>Great Value</h2>
+                    <p>Great rates, special offers, and no hidden fees.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__right">
+            <h1>Send money online</h1>
+            <form>
+                <label for="receivers-country">Receiver's Country</label>
+                <div class="main__right__select-container main__right__form-card">
+                    <select name="receivers-country" id="receivers-country">
+                        <option value="placeholder" disabled selected hidden>Select country</option>
+                        <option value="placeholder">Placeholder</option>
+                        <option value="placeholder">Placeholder</option>
+                        <option value="placeholder">Placeholder</option>
+                        <option value="placeholder">Placeholder</option>
+                        <option value="placeholder">Placeholder</option>
+                    </select>
+                </div>
+
+                <div class="main__right__form__amount">
+                    <section>
+                        <label for="send-amount">Send Amount</label>
+                        <input class="main__right__form-card" type="text" name="send-amount" id="send-amount" value="0.00">
+                    </section>
+                    <section>
+                        <p>&nbsp;</p>
+                        <i class='bx bx-transfer-alt'></i>
+                    </section>
+                    <section>
+                        <label for="receive-amount">Receive Amount</label>
+                        <input class="main__right__form-card" type="text" name="receive-amount" id="receive-amount" value="0.00">
+                    </section>
+                </div>
+
+                <h3 class="main__right__form__receive-method-header">How does your receiver want the money?</h3>
+                <div class="main__right__form__receive-method">
+                    <div class="main__right__form__receive-method__card main__right__form-card">
+                        <i class='bx bx-money '></i>
+                        Cash pick-up
+                    </div>
+                    <div class="main__right__form__receive-method__card main__right__form-card">
+                        <i class='bx bxs-bank' ></i>
+                        Bank account
+                    </div>
+                    <div class="main__right__form__receive-method__card main__right__form-card">
+                       <i class='bx bxl-paypal' ></i>
+                        PayPal
+                    </div>
+                </div>
+
+                <input type="submit" value="Continue &#8594">
+            </form>
+        </div>
+    </main>
+</body>
+</html>

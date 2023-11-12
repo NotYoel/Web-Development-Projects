@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36">
+	<title>lightning_icon-svg</title>
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: none;stroke: #212529;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.5 } 
+	</style>
+	<g id="Frame 9">
+		<g id="Rectangle 20">
+			<path id="Layer" class="s0" d="m0 4c0-2.2 1.8-4 4-4h28c2.2 0 4 1.8 4 4v28c0 2.2-1.8 4-4 4h-28c-2.2 0-4-1.8-4-4z"/>
+		</g>
+		<g id="flash">
+			<path id="Vector" fill-rule="evenodd" class="s1" d="m14.2 19.3v7.2c0 1.7 0.9 2 2 0.7l7.6-8.6c0.9-1 0.5-1.9-0.9-1.9h-3.1v-7.2c0-1.7-0.9-2-2-0.7l-7.6 8.6c-0.9 1-0.5 1.9 0.9 1.9z"/>
+		</g>
+	</g>
+</svg>
