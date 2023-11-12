@@ -10,3 +10,4 @@
 - [❌] Make section under the main content
 - [❌] Make footer
 - [❌] Make website responsive
+- [❌] Add functionality to the form inputs
